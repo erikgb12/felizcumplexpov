@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.titulo{
+        text-align: center;
+        font-size: 70px;
+        margin-top: 50px;
+}
+
+.sub1{
+        text-align: center;
+        font-size: 50px;
+}
+
+.sub2{
+        text-align: center;
+        font-size: 30px;
+}
+
+h1{
+    color: #fff;
+    text-shadow:
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000,
+        0 0 160px #ff0000;
+
+    animation: rainbowGlow 6s linear infinite;
+}
+
+@keyframes rainbowGlow {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@property --glow {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: red;
+}
+
+@keyframes rainbowBorder {
+    0%   { --glow: #ff0000; }
+    17%  { --glow: #ffff00; }
+    33%  { --glow: #00ff00; }
+    50%  { --glow: #00ffff; }
+    67%  { --glow: #0000ff; }
+    83%  { --glow: #ff00ff; }
+    100% { --glow: #ff0000; }
+}
+
+.imagen {
+    border: 2px solid var(--glow);
+
+    box-shadow:
+        0 0 10px var(--glow),
+        0 0 20px var(--glow),
+        0 0 40px var(--glow),
+        0 0 80px var(--glow),
+        inset 0 0 10px var(--glow),
+        inset 0 0 20px var(--glow),
+        inset 0 0 40px var(--glow);
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    animation: rainbowBorder 6s linear infinite;
+}
+
+.contenedor{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+img,video{
+    margin-left: 5%;
+    animation: none;
+}
+
+.btn-toggle {
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 12px 40px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background: #000;
+    border: 2px solid var(--glow, red);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--glow, red), 0 0 20px var(--glow, red);
+    animation: rainbowBorder 6s linear infinite;
+    transition: transform 0.2s;
+}
+
+.btn-toggle:hover {
+    transform: scale(1.1);
+}
+
+.seccion {
+    display: none;
+}
+
+.seccion.abierto {
+    display: block;
+}

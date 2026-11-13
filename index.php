@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<h1 class="titulo">FELIZ CUMPLEAÑOS FRANCO (XPOV)</h1>
+<h1 class="sub1">De parte de Erik</h1>
+<h1 class="sub2">Recordando una amistad duradera en este día especial</h1>
+
+<img src="./img/herobrine.gif" alt="">
+<img src="./img/herobrine.gif" alt="">
+<img src="./img/herobrine.gif" alt="">
+<img src="./img/herobrine.gif" alt="">
+<img src="./img/herobrine.gif" alt=""><br><br><br><br>
+
+<div class="contenedor">
+<!-- ========== SECCIÓN 1 ========== -->
+<h1 class="sub1">La primera vez que hablamos por Discord el 06/03/2025</h1>
+<button class="btn-toggle">Abrir</button>
+
+
+
+<div class="seccion">
+
+    <img src="./img/inicio.png" class="imagen" style="width:90%;">
+
+</div>
+
+
+<!-- ========== SECCIÓN 2 ========== -->
+<h1 class="sub1">El primer server que hiciste de Minecraft el 07/03/2025</h1>
+<button class="btn-toggle">Abrir</button>
+<div class="seccion">
+
+    <h1 class="sub2">Probando los plugins de TP</h1>
+    <img src="./img/1.webp" alt="" class="imagen">
+    <img src="./img/tp.webp" alt="" class="imagen">
+
+    <h1 class="sub2">Una de mis torres y la estatua de Steve</h1>
+    <img src="./img/2.webp" alt="" class="imagen">
+    <img src="./img/3.webp" alt="" class="imagen">
+
+    <h1 class="sub2">Vista desde arriba de las construcciones del server</h1>
+    <img src="./img/4.webp" alt="" class="imagen" style="width:90%;">
+    <video src="./img/volar.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <h1 class="sub2">Los otros miembros del server</h1>
+    <video src="./img/chat.mp4" style="width:90%;" class="imagen" controls></video>
+
+</div>
+
+
+<!-- ========== SECCIÓN 3 ========== -->
+<h1 class="sub1">El server de terror que hice xd 25/03/2025</h1>
+<button class="btn-toggle">Abrir</button>
+<div class="seccion">
+
+    <img src="./img/terror1.webp" alt="" class="imagen">
+    <img src="./img/terror2.webp" alt="" class="imagen">
+    <video src="./img/vidrio.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/huir.mp4" style="width:90%;" class="imagen" controls></video>
+
+</div>
+
+
+<!-- ========== SECCIÓN 4 ========== -->
+<h1 class="sub1">El server que jugamos nosotros dos solos 20/07/2025</h1>
+<button class="btn-toggle">Abrir</button>
+<div class="seccion">
+
+    <h1 class="sub2">Batallamos un monton para encontrar la manera de jugar juntos xdd probando mods de servers y athernos</h1>
+    <img src="./img/n1.webp" alt="" class="imagen">
+
+    <h1 class="sub2">Nuestra casita</h1>
+    <img src="./img/n2.webp" alt="" class="imagen">
+    <img src="./img/n3.webp" alt="" class="imagen">
+    <img src="./img/n4.webp" alt="" class="imagen">
+    <video src="./img/casa1.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/casa2.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <h1 class="sub2">Visita al nether</h1>
+    <video src="./img/nether1.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/nether2.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/nether3.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <h1 class="sub2">La dimensión del Warden (Deeper and Darker)</h1>
+    <video src="./img/warden1.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/warden2.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/warden3.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <h1 class="sub2">Los Bosses del Nether</h1>
+    <video src="./img/nboss1.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/nboss2.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/nboss3.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <h1 class="sub2">La dungeon acuática</h1>
+    <video src="./img/agua1.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/agua2.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/agua3.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <h1 class="sub2">La dungeon del robot</h1>
+    <video src="./img/robot.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <h1 class="sub2">El boss dinosaurio egipcio</h1>
+    <video src="./img/dino.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <h1 class="sub2">El boss de las zonas heladas</h1>
+    <video src="./img/jefe1.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/jefe2.mp4" style="width:90%;" class="imagen" controls></video>
+
+</div>
+
+
+<!-- ========== SECCIÓN 5 ========== -->
+<h1 class="sub1">Los 2 servers de magia que jugamos en Agosto de 2026</h1>
+<button class="btn-toggle">Abrir</button>
+<div class="seccion">
+
+    <video src="./img/magia.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/magia2.mp4" style="width:90%;" class="imagen" controls></video>
+    <video src="./img/magia3.mp4" style="width:90%;" class="imagen" controls></video>
+
+    <img src="./img/casas.jpg" alt="" class="imagen" style="width:90%;">
+    <img src="./img/casas2.jpg" alt="" class="imagen" style="width:90%;">
+    <img src="./img/casas3.jpg" alt="" class="imagen" style="width:90%;">
+    <img src="./img/casas4.jpg" alt="" class="imagen" style="width:90%;">
+
+</div>
+</div>
+
+<h1 class="sub2">Quiero que sepas que eres un amigo bastante significativo para mi</h1>
+<h1 class="sub2">Te deseo mucha felicidad en este cumpleaños</h1>
+<h1 class="sub2">Te quiero pasala bien</h1>
+
+<script>
+    document.querySelectorAll('.btn-toggle').forEach(function (boton) {
+        boton.addEventListener('click', function () {
+            var seccion = boton.nextElementSibling;
+            var abierta = seccion.classList.toggle('abierto');
+            boton.textContent = abierta ? 'Cerrar' : 'Abrir';
+        });
+    });
+</script>
+
+</body>
+</html>
